@@ -1,0 +1,4 @@
+Bootstrap jest na licencji MIT - mo¿na uzywaæ tak¿e komercyjnie.
+Boostrap jest front-endowym frameworkiem, pozwalaj¹cym tworzyæ ³adne menu, u¿ywaj¹c samych znaczników html. 
+Bootstrap umo¿liwia tworzenie responsive web design, czyli kontrolki ³adnie wygl¹daj¹ i dzia³aj¹ na ró¿nych urz¹dzeniach. 
+Bootstrap nie jest frameworkiem js jak ExtJs tylko zbiorem css, js itp z mo¿liwoœcia dodawania pluginów.
