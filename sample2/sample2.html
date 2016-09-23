@@ -24,20 +24,58 @@
         <strong>Hello word.
       </div>
 
+	  <!-- Przykład paska postępu-->
 	  <div class="progress">
         <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;"><span class="sr-only">60% Complete</span></div>
       </div>
 	  
+	  <!-- Przykład panelu-->
 	   <div class="panel panel-default">
             <div class="panel-heading">
               <h3 class="panel-title">Panel title</h3>
             </div>
             <div class="panel-body">
               
-			  Panel content
+			  zawartość panelu...
+			  
             </div>
        </div>
-	  
+
+	   <!-- Przykład tabeli-->
+		<div class="container">
+				  <h2>Tabela1</h2>
+				  <p>Przykład tabeli</p>
+				  
+				  <table class="table">
+					<thead>
+					  <tr >
+						<th>ID</th>
+						<th>NAZWA</th>
+					  </tr>
+					</thead>
+					<tbody>
+					  <tr class="success">
+						<td>1</td>
+						<td>aaa</td>
+					  </tr>
+					  <tr>
+						<td>2</td>
+						<td>bbb</td>
+					  </tr>
+					  <tr class="success">
+						<td>2</td>
+						<td>ccc</td>
+					  </tr>
+					</tbody>
+				  </table>
+				</div>
+		
+		<!-- Przykład przycisku wywołującego komunikat-->
+		<button type="button" class="btn btn-primary" onclick=" $('#alert1').show();">Pokaż komunikat</button>
+		<div id="alert1" class="alert alert-danger" style="display:none;">
+			<strong>Wcisnałeś przycisk!</strong>
+		</div>
+	   
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
