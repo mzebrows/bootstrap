@@ -9,4 +9,4 @@ Bootstrap umo¿liwia tworzenie responsive web design, czyli kontrolki ³adnie wygl
 <img class="img-responsive" src="img_chania.jpg" alt="Chania">
 
 
-Bootstrap nie jest frameworkiem js jak ExtJs tylko zbiorem css, js itp z mo¿liwoœcia dodawania pluginów.
+Bootstrap nie jest frameworkiem js jak ExtJs tylko zbiorem css, js itp z mo¿liwoœcia dodawania pluginów. Czyli nie ma API do tworzenia obiektów tak jak ExtJS. Mo¿na co najwy¿ej tworzyæ i modyfikowaæ obiekty u¿ywaj¹c jquery.
